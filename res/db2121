@@ -1,0 +1,2002 @@
+BoxAmount	INT	0	0
+CylinderAmount	INT	0	0
+spare1	INT	0	0
+spare2	INT	0	0
+spare3	INT	0	0
+spare4	INT	0	0
+spare5	INT	0	0
+spare6	INT	0	0
+spare7	INT	0	0
+spare8	INT	0	0
+TD.MainFrame.Item_Number	INT	0	0	 Item Number
+TD.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+TD.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+TD.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+TD.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+TD.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+TD.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+TD.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+TD.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+TD.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+TD.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+TD.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+TD.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+TD.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+TD.ToolFrame.Item_Number	INT	0	0	 Item Number
+TD.ToolFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+TD.ToolFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+TD.ToolFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+TD.ToolFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+TD.ToolFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+TD.ToolFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+TD.ToolFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+TD.ToolFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+TD.ToolFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+TD.ToolFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+TD.ToolFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+TD.ToolFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+TD.ToolFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+TD.Elevator.Item_Number	INT	0	0	 Item Number
+TD.Elevator.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+TD.Elevator.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+TD.Elevator.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+TD.Elevator.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+TD.Elevator.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+TD.Elevator.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+TD.Elevator.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Parked	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+TD.Elevator.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+TD.Elevator.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+TD.Elevator.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+TD.Elevator.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+TD.Elevator.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+TD.Elevator.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.MainFrame.Item_Number	INT	0	0	 Item Number
+HT.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HT.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HT.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HT.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HT.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HT.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HT.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HT.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HT.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HT.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HT.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HT.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HT.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.ToolFrame.Item_Number	INT	0	0	 Item Number
+HT.ToolFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HT.ToolFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HT.ToolFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HT.ToolFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HT.ToolFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HT.ToolFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HT.ToolFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HT.ToolFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HT.ToolFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HT.ToolFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HT.ToolFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HT.ToolFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HT.ToolFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.SpinnerUp.Item_Number	INT	0	0	 Item Number
+HT.SpinnerUp.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HT.SpinnerUp.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HT.SpinnerUp.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HT.SpinnerUp.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HT.SpinnerUp.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HT.SpinnerUp.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HT.SpinnerUp.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerUp.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HT.SpinnerUp.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HT.SpinnerUp.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HT.SpinnerUp.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HT.SpinnerUp.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HT.SpinnerUp.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.SpinnerFwd.Item_Number	INT	0	0	 Item Number
+HT.SpinnerFwd.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HT.SpinnerFwd.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HT.SpinnerFwd.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HT.SpinnerFwd.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HT.SpinnerFwd.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HT.SpinnerFwd.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HT.SpinnerFwd.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HT.SpinnerFwd.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HT.SpinnerFwd.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HT.SpinnerFwd.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HT.SpinnerFwd.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HT.SpinnerFwd.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HT.SpinnerFwd.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.MudBucket.Item_Number	INT	0	0	 Item Number
+HT.MudBucket.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HT.MudBucket.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HT.MudBucket.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HT.MudBucket.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HT.MudBucket.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HT.MudBucket.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HT.MudBucket.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HT.MudBucket.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HT.MudBucket.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HT.MudBucket.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HT.MudBucket.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HT.MudBucket.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HT.MudBucket.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HT.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HT.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HT.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HT.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HT.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HT.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HT.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HT.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HT.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HT.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HT.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HT.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HT.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HT.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HT.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HT.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HT.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HT.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HT.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HT.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HT.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HT.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HT.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HT.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HT.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HT.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HT.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HT.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HT.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HT.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HT.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HT.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HT.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HT.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HT.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HT.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HT.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HT.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HT.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HT.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HT.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HT.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HT.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HT.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HT.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HT.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HT.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HT.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HT.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HT.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HT.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HT.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+STB_HT.MainFrame.Item_Number	INT	0	0	 Item Number
+STB_HT.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+STB_HT.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+STB_HT.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+STB_HT.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+STB_HT.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+STB_HT.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+STB_HT.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+STB_HT.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+STB_HT.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+STB_HT.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+STB_HT.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+STB_HT.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+STB_HT.ToolFrame.Item_Number	INT	0	0	 Item Number
+STB_HT.ToolFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+STB_HT.ToolFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+STB_HT.ToolFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+STB_HT.ToolFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+STB_HT.ToolFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+STB_HT.ToolFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+STB_HT.ToolFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.ToolFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+STB_HT.ToolFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+STB_HT.ToolFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+STB_HT.ToolFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+STB_HT.ToolFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+STB_HT.ToolFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+STB_HT.SpinnerUp.Item_Number	INT	0	0	 Item Number
+STB_HT.SpinnerUp.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+STB_HT.SpinnerUp.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+STB_HT.SpinnerUp.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+STB_HT.SpinnerUp.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+STB_HT.SpinnerUp.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+STB_HT.SpinnerUp.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+STB_HT.SpinnerUp.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Parked	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerUp.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+STB_HT.SpinnerUp.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+STB_HT.SpinnerUp.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+STB_HT.SpinnerUp.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+STB_HT.SpinnerUp.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+STB_HT.SpinnerUp.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+STB_HT.SpinnerFwd.Item_Number	INT	0	0	 Item Number
+STB_HT.SpinnerFwd.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+STB_HT.SpinnerFwd.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+STB_HT.SpinnerFwd.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+STB_HT.SpinnerFwd.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+STB_HT.SpinnerFwd.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+STB_HT.SpinnerFwd.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+STB_HT.SpinnerFwd.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Parked	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.SpinnerFwd.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+STB_HT.SpinnerFwd.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+STB_HT.SpinnerFwd.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+STB_HT.SpinnerFwd.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+STB_HT.SpinnerFwd.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+STB_HT.SpinnerFwd.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+STB_HT.MudBucket.Item_Number	INT	0	0	 Item Number
+STB_HT.MudBucket.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+STB_HT.MudBucket.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+STB_HT.MudBucket.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+STB_HT.MudBucket.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+STB_HT.MudBucket.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+STB_HT.MudBucket.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+STB_HT.MudBucket.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Parked	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+STB_HT.MudBucket.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+STB_HT.MudBucket.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+STB_HT.MudBucket.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+STB_HT.MudBucket.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+STB_HT.MudBucket.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+STB_HT.MudBucket.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+STB_HT.Jib.Line1.Item_Number	INT	50	50	 Item Number
+STB_HT.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+STB_HT.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+STB_HT.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+STB_HT.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+STB_HT.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+STB_HT.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+STB_HT.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+STB_HT.Jib.Line2.Item_Number	INT	50	50	 Item Number
+STB_HT.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+STB_HT.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+STB_HT.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+STB_HT.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+STB_HT.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+STB_HT.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+STB_HT.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+STB_HT.Jib.Line3.Item_Number	INT	50	50	 Item Number
+STB_HT.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+STB_HT.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+STB_HT.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+STB_HT.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+STB_HT.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+STB_HT.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+STB_HT.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+STB_HT.Jib.Line4.Item_Number	INT	50	50	 Item Number
+STB_HT.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+STB_HT.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+STB_HT.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+STB_HT.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+STB_HT.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+STB_HT.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+STB_HT.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+STB_HT.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+STB_HT.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+STB_HT.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+STB_HT.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+STB_HT.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+STB_HT.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+STB_HT.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+STB_HT.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+STB_HT.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+STB_HT.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+STB_HT.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+STB_HT.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+STB_HT.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+STB_HT.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+STB_HT.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+STB_HT.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+STB_HT.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+STB_HT.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+STB_HT.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+STB_HT.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+UHT.MainFrame.Item_Number	INT	0	0	 Item Number
+UHT.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+UHT.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+UHT.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+UHT.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+UHT.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+UHT.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+UHT.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+UHT.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+UHT.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+UHT.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+UHT.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+UHT.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+UHT.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+UHT.Telescope.Item_Number	INT	0	0	 Item Number
+UHT.Telescope.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+UHT.Telescope.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+UHT.Telescope.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+UHT.Telescope.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+UHT.Telescope.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+UHT.Telescope.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+UHT.Telescope.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Parked	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Telescope.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+UHT.Telescope.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+UHT.Telescope.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+UHT.Telescope.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+UHT.Telescope.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+UHT.Telescope.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+UHT.Head.Item_Number	INT	0	0	 Item Number
+UHT.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+UHT.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+UHT.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+UHT.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+UHT.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+UHT.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+UHT.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+UHT.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+UHT.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+UHT.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+UHT.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+UHT.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+UHT.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+GA.MainFrame.Item_Number	INT	0	0	 Item Number
+GA.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+GA.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+GA.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+GA.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+GA.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+GA.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+GA.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+GA.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+GA.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+GA.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+GA.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+GA.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+GA.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+GA.Head.Item_Number	INT	0	0	 Item Number
+GA.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+GA.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+GA.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+GA.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+GA.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+GA.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+GA.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+GA.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+GA.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+GA.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+GA.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+GA.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+GA.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+GA.Jib.Line1.Item_Number	INT	50	50	 Item Number
+GA.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+GA.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+GA.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+GA.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+GA.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+GA.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+GA.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+GA.Jib.Line2.Item_Number	INT	50	50	 Item Number
+GA.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+GA.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+GA.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+GA.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+GA.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+GA.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+GA.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+GA.Jib.Line3.Item_Number	INT	50	50	 Item Number
+GA.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+GA.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+GA.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+GA.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+GA.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+GA.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+GA.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+GA.Jib.Line4.Item_Number	INT	50	50	 Item Number
+GA.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+GA.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+GA.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+GA.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+GA.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+GA.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+GA.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+GA.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+GA.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+GA.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+GA.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+GA.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+GA.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+GA.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+GA.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+GA.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+GA.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+GA.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+GA.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+GA.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+GA.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+GA.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+GA.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+GA.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+GA.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+GA.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+GA.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR.Column.MainFrame.Item_Number	INT	0	0	 Item Number
+HR.Column.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.Column.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.Column.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.Column.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.Column.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.Column.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.Column.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.Column.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.Column.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.Column.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.Column.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.Column.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.Column.Column.Item_Number	INT	0	0	 Item Number
+HR.Column.Column.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.Column.Column.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.Column.Column.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.Column.Column.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.Column.Column.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.Column.Column.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.Column.Column.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Column.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.Column.Column.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.Column.Column.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.Column.Column.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.Column.Column.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.Column.Column.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.Column.Trolley.Item_Number	INT	0	0	 Item Number
+HR.Column.Trolley.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.Column.Trolley.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.Column.Trolley.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.Column.Trolley.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.Column.Trolley.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.Column.Trolley.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.Column.Trolley.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Trolley.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.Column.Trolley.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.Column.Trolley.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.Column.Trolley.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.Column.Trolley.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.Column.Trolley.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.Column.Pindoper.Item_Number	INT	0	0	 Item Number
+HR.Column.Pindoper.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.Column.Pindoper.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.Column.Pindoper.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.Column.Pindoper.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.Column.Pindoper.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.Column.Pindoper.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.Column.Pindoper.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.Column.Pindoper.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.Column.Pindoper.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.Column.Pindoper.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.Column.Pindoper.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.Column.Pindoper.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.Column.Pindoper.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.UArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR.UArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.UArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.UArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.UArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.UArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.UArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.UArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.UArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.UArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.UArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.UArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.UArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.UArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR.UArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.UArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.UArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.UArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.UArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.UArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.UArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.UArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR.UArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.UArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.UArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.UArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.UArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.UArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.UArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.UArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR.UArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.UArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.UArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.UArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.UArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.UArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.UArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.UArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR.UArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.UArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.UArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.UArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.UArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.UArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.UArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.UArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR.UArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR.UArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR.UArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR.UArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR.UArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR.UArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR.UArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR.UArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR.UArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR.UArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR.UArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR.UArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR.UArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR.UArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR.UArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR.UArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR.UArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR.UArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR.UArm.Head.Item_Number	INT	0	0	 Item Number
+HR.UArm.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.UArm.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.UArm.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.UArm.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.UArm.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.UArm.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.UArm.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.UArm.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.UArm.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.UArm.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.UArm.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.UArm.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.UArm.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.MArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR.MArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.MArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.MArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.MArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.MArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.MArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.MArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.MArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.MArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.MArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.MArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.MArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.MArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR.MArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.MArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.MArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.MArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.MArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.MArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.MArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.MArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR.MArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.MArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.MArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.MArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.MArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.MArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.MArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.MArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR.MArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.MArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.MArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.MArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.MArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.MArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.MArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.MArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR.MArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.MArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.MArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.MArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.MArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.MArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.MArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.MArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR.MArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR.MArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR.MArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR.MArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR.MArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR.MArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR.MArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR.MArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR.MArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR.MArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR.MArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR.MArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR.MArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR.MArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR.MArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR.MArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR.MArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR.MArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR.MArm.Gripper.Item_Number	INT	0	0	 Item Number
+HR.MArm.Gripper.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.MArm.Gripper.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.MArm.Gripper.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.MArm.Gripper.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.MArm.Gripper.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.MArm.Gripper.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.MArm.Gripper.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.Gripper.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.MArm.Gripper.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.MArm.Gripper.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.MArm.Gripper.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.MArm.Gripper.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.MArm.Gripper.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.MArm.GripperPue.Item_Number	INT	0	0	 Item Number
+HR.MArm.GripperPue.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.MArm.GripperPue.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.MArm.GripperPue.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.MArm.GripperPue.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.MArm.GripperPue.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.MArm.GripperPue.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.MArm.GripperPue.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.GripperPue.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.MArm.GripperPue.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.MArm.GripperPue.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.MArm.GripperPue.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.MArm.GripperPue.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.MArm.GripperPue.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.MArm.PueSwan.Item_Number	INT	0	0	 Item Number
+HR.MArm.PueSwan.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.MArm.PueSwan.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.MArm.PueSwan.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.MArm.PueSwan.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.MArm.PueSwan.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.MArm.PueSwan.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.MArm.PueSwan.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueSwan.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.MArm.PueSwan.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.MArm.PueSwan.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.MArm.PueSwan.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.MArm.PueSwan.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.MArm.PueSwan.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.MArm.PueRotate.Item_Number	INT	0	0	 Item Number
+HR.MArm.PueRotate.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.MArm.PueRotate.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.MArm.PueRotate.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.MArm.PueRotate.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.MArm.PueRotate.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.MArm.PueRotate.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.MArm.PueRotate.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.MArm.PueRotate.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.MArm.PueRotate.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.MArm.PueRotate.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.MArm.PueRotate.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.MArm.PueRotate.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.MArm.PueRotate.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.TArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR.TArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.TArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.TArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.TArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.TArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.TArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.TArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.TArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.TArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.TArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.TArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.TArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.TArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR.TArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.TArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.TArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.TArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.TArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.TArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.TArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.TArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR.TArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.TArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.TArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.TArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.TArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.TArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.TArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.TArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR.TArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.TArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.TArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.TArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.TArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.TArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.TArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.TArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR.TArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR.TArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR.TArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR.TArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR.TArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR.TArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR.TArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR.TArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR.TArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR.TArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR.TArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR.TArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR.TArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR.TArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR.TArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR.TArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR.TArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR.TArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR.TArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR.TArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR.TArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR.TArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR.TArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR.TArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR.TArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR.TArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR.TArm.Head.Item_Number	INT	0	0	 Item Number
+HR.TArm.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.TArm.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.TArm.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.TArm.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.TArm.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.TArm.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.TArm.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.TArm.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.TArm.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.TArm.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.TArm.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.TArm.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR.TArm.Arm.Item_Number	INT	0	0	 Item Number
+HR.TArm.Arm.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR.TArm.Arm.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR.TArm.Arm.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR.TArm.Arm.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR.TArm.Arm.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR.TArm.Arm.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR.TArm.Arm.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR.TArm.Arm.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR.TArm.Arm.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR.TArm.Arm.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR.TArm.Arm.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR.TArm.Arm.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR.TArm.Arm.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.Column.MainFrame.Item_Number	INT	0	0	 Item Number
+HR_AW.Column.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.Column.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.Column.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.Column.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.Column.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.Column.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.Column.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.Column.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.Column.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.Column.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.Column.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.Column.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.Column.Column.Item_Number	INT	0	0	 Item Number
+HR_AW.Column.Column.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.Column.Column.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.Column.Column.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.Column.Column.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.Column.Column.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.Column.Column.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.Column.Column.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Column.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.Column.Column.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.Column.Column.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.Column.Column.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.Column.Column.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.Column.Column.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.Column.Trolley.Item_Number	INT	0	0	 Item Number
+HR_AW.Column.Trolley.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.Column.Trolley.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.Column.Trolley.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.Column.Trolley.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.Column.Trolley.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.Column.Trolley.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.Column.Trolley.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Trolley.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.Column.Trolley.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.Column.Trolley.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.Column.Trolley.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.Column.Trolley.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.Column.Trolley.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.Column.Pindoper.Item_Number	INT	0	0	 Item Number
+HR_AW.Column.Pindoper.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.Column.Pindoper.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.Column.Pindoper.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.Column.Pindoper.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.Column.Pindoper.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.Column.Pindoper.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.Column.Pindoper.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.Column.Pindoper.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.Column.Pindoper.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.Column.Pindoper.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.Column.Pindoper.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.Column.Pindoper.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.Column.Pindoper.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.UArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR_AW.UArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.UArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.UArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.UArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.UArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.UArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.UArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.UArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.UArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.UArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.UArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.UArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.UArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR_AW.UArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.UArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.UArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.UArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.UArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.UArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.UArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.UArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR_AW.UArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.UArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.UArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.UArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.UArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.UArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.UArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.UArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR_AW.UArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.UArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.UArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.UArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.UArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.UArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.UArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.UArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR_AW.UArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.UArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.UArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.UArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.UArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.UArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.UArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.UArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR_AW.UArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR_AW.UArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR_AW.UArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR_AW.UArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR_AW.UArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR_AW.UArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR_AW.UArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR_AW.UArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR_AW.UArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR_AW.UArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR_AW.UArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR_AW.UArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR_AW.UArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR_AW.UArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR_AW.UArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR_AW.UArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR_AW.UArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR_AW.UArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR_AW.UArm.Head.Item_Number	INT	0	0	 Item Number
+HR_AW.UArm.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.UArm.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.UArm.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.UArm.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.UArm.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.UArm.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.UArm.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.UArm.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.UArm.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.UArm.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.UArm.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.UArm.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.UArm.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.MArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR_AW.MArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.MArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.MArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.MArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.MArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.MArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.MArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.MArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.MArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.MArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.MArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.MArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.MArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR_AW.MArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.MArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.MArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.MArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.MArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.MArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.MArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.MArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR_AW.MArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.MArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.MArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.MArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.MArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.MArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.MArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.MArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR_AW.MArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.MArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.MArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.MArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.MArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.MArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.MArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.MArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR_AW.MArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.MArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.MArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.MArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.MArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.MArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.MArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.MArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR_AW.MArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR_AW.MArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR_AW.MArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR_AW.MArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR_AW.MArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR_AW.MArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR_AW.MArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR_AW.MArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR_AW.MArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR_AW.MArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR_AW.MArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR_AW.MArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR_AW.MArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR_AW.MArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR_AW.MArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR_AW.MArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR_AW.MArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR_AW.MArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR_AW.MArm.Gripper.Item_Number	INT	0	0	 Item Number
+HR_AW.MArm.Gripper.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.MArm.Gripper.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.MArm.Gripper.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.MArm.Gripper.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.MArm.Gripper.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.MArm.Gripper.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.MArm.Gripper.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.Gripper.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.MArm.Gripper.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.MArm.Gripper.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.MArm.Gripper.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.MArm.Gripper.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.MArm.Gripper.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.MArm.GripperPue.Item_Number	INT	0	0	 Item Number
+HR_AW.MArm.GripperPue.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.MArm.GripperPue.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.MArm.GripperPue.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.MArm.GripperPue.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.MArm.GripperPue.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.MArm.GripperPue.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.MArm.GripperPue.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.GripperPue.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.MArm.GripperPue.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.MArm.GripperPue.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.MArm.GripperPue.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.MArm.GripperPue.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.MArm.GripperPue.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.MArm.PueSwan.Item_Number	INT	0	0	 Item Number
+HR_AW.MArm.PueSwan.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.MArm.PueSwan.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.MArm.PueSwan.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.MArm.PueSwan.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.MArm.PueSwan.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.MArm.PueSwan.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.MArm.PueSwan.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueSwan.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.MArm.PueSwan.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.MArm.PueSwan.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.MArm.PueSwan.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.MArm.PueSwan.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.MArm.PueSwan.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.MArm.PueRotate.Item_Number	INT	0	0	 Item Number
+HR_AW.MArm.PueRotate.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.MArm.PueRotate.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.MArm.PueRotate.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.MArm.PueRotate.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.MArm.PueRotate.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.MArm.PueRotate.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.MArm.PueRotate.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.MArm.PueRotate.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.MArm.PueRotate.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.MArm.PueRotate.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.MArm.PueRotate.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.MArm.PueRotate.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.MArm.PueRotate.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.TArm.MainFrame.Item_Number	INT	0	0	 Item Number
+HR_AW.TArm.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.TArm.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.TArm.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.TArm.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.TArm.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.TArm.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.TArm.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.TArm.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.TArm.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.TArm.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.TArm.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.TArm.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.TArm.Jib.Line1.Item_Number	INT	50	50	 Item Number
+HR_AW.TArm.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.TArm.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.TArm.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.TArm.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.TArm.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.TArm.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.TArm.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.TArm.Jib.Line2.Item_Number	INT	50	50	 Item Number
+HR_AW.TArm.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.TArm.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.TArm.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.TArm.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.TArm.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.TArm.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.TArm.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.TArm.Jib.Line3.Item_Number	INT	50	50	 Item Number
+HR_AW.TArm.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.TArm.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.TArm.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.TArm.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.TArm.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.TArm.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.TArm.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.TArm.Jib.Line4.Item_Number	INT	50	50	 Item Number
+HR_AW.TArm.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+HR_AW.TArm.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+HR_AW.TArm.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+HR_AW.TArm.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+HR_AW.TArm.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+HR_AW.TArm.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+HR_AW.TArm.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+HR_AW.TArm.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+HR_AW.TArm.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+HR_AW.TArm.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+HR_AW.TArm.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+HR_AW.TArm.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+HR_AW.TArm.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+HR_AW.TArm.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+HR_AW.TArm.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+HR_AW.TArm.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+HR_AW.TArm.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+HR_AW.TArm.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+HR_AW.TArm.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+HR_AW.TArm.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+HR_AW.TArm.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+HR_AW.TArm.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+HR_AW.TArm.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+HR_AW.TArm.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+HR_AW.TArm.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+HR_AW.TArm.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+HR_AW.TArm.Head.Item_Number	INT	0	0	 Item Number
+HR_AW.TArm.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.TArm.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.TArm.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.TArm.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.TArm.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.TArm.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.TArm.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.TArm.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.TArm.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.TArm.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.TArm.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.TArm.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+HR_AW.TArm.Arm.Item_Number	INT	0	0	 Item Number
+HR_AW.TArm.Arm.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+HR_AW.TArm.Arm.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+HR_AW.TArm.Arm.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+HR_AW.TArm.Arm.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+HR_AW.TArm.Arm.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+HR_AW.TArm.Arm.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+HR_AW.TArm.Arm.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Parked	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+HR_AW.TArm.Arm.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+HR_AW.TArm.Arm.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+HR_AW.TArm.Arm.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+HR_AW.TArm.Arm.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+HR_AW.TArm.Arm.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+HR_AW.TArm.Arm.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+PCW.Skate.Skate.Item_Number	INT	0	0	 Item Number
+PCW.Skate.Skate.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+PCW.Skate.Skate.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+PCW.Skate.Skate.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+PCW.Skate.Skate.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+PCW.Skate.Skate.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+PCW.Skate.Skate.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+PCW.Skate.Skate.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Parked	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Skate.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+PCW.Skate.Skate.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+PCW.Skate.Skate.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+PCW.Skate.Skate.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+PCW.Skate.Skate.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+PCW.Skate.Skate.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+PCW.Skate.Loading.Item_Number	INT	0	0	 Item Number
+PCW.Skate.Loading.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+PCW.Skate.Loading.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+PCW.Skate.Loading.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+PCW.Skate.Loading.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+PCW.Skate.Loading.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+PCW.Skate.Loading.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+PCW.Skate.Loading.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Parked	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Skate.Loading.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+PCW.Skate.Loading.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+PCW.Skate.Loading.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+PCW.Skate.Loading.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+PCW.Skate.Loading.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+PCW.Skate.Loading.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+PCW.TiltRamp.Item_Number	INT	0	0	 Item Number
+PCW.TiltRamp.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+PCW.TiltRamp.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+PCW.TiltRamp.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+PCW.TiltRamp.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+PCW.TiltRamp.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+PCW.TiltRamp.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+PCW.TiltRamp.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Parked	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+PCW.TiltRamp.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+PCW.TiltRamp.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+PCW.TiltRamp.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+PCW.TiltRamp.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+PCW.TiltRamp.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+PCW.TiltRamp.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+PCW.Pta.MainFrame.Item_Number	INT	0	0	 Item Number
+PCW.Pta.MainFrame.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+PCW.Pta.MainFrame.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+PCW.Pta.MainFrame.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+PCW.Pta.MainFrame.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+PCW.Pta.MainFrame.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+PCW.Pta.MainFrame.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+PCW.Pta.MainFrame.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Parked	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Pta.MainFrame.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+PCW.Pta.MainFrame.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+PCW.Pta.MainFrame.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+PCW.Pta.MainFrame.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+PCW.Pta.MainFrame.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+PCW.Pta.MainFrame.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+PCW.Pta.TiltFrame.Line1.Item_Number	INT	50	50	 Item Number
+PCW.Pta.TiltFrame.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+PCW.Pta.TiltFrame.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+PCW.Pta.TiltFrame.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+PCW.Pta.TiltFrame.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+PCW.Pta.TiltFrame.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+PCW.Pta.TiltFrame.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+PCW.Pta.TiltFrame.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+PCW.Pta.TiltFrame.Line2.Item_Number	INT	50	50	 Item Number
+PCW.Pta.TiltFrame.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+PCW.Pta.TiltFrame.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+PCW.Pta.TiltFrame.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+PCW.Pta.TiltFrame.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+PCW.Pta.TiltFrame.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+PCW.Pta.TiltFrame.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+PCW.Pta.TiltFrame.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+PCW.Pta.TiltFrame.Line3.Item_Number	INT	50	50	 Item Number
+PCW.Pta.TiltFrame.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+PCW.Pta.TiltFrame.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+PCW.Pta.TiltFrame.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+PCW.Pta.TiltFrame.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+PCW.Pta.TiltFrame.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+PCW.Pta.TiltFrame.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+PCW.Pta.TiltFrame.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+PCW.Pta.TiltFrame.Line4.Item_Number	INT	50	50	 Item Number
+PCW.Pta.TiltFrame.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+PCW.Pta.TiltFrame.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+PCW.Pta.TiltFrame.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+PCW.Pta.TiltFrame.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+PCW.Pta.TiltFrame.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+PCW.Pta.TiltFrame.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+PCW.Pta.TiltFrame.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+PCW.Pta.TiltFrame.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+PCW.Pta.TiltFrame.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+PCW.Pta.TiltFrame.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+PCW.Pta.TiltFrame.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+PCW.Pta.TiltFrame.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+PCW.Pta.TiltFrame.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+PCW.Pta.TiltFrame.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+PCW.Pta.TiltFrame.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+PCW.Pta.TiltFrame.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+PCW.Pta.TiltFrame.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+PCW.Pta.TiltFrame.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+PCW.Pta.TiltFrame.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+PCW.Pta.TiltFrame.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+PCW.Pta.TiltFrame.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+PCW.Pta.TiltFrame.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+PCW.Pta.TiltFrame.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+PCW.Pta.TiltFrame.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+PCW.Pta.TiltFrame.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+PCW.Pta.TiltFrame.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+PCW.Pta.TiltFrame.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+PCW.Roller.Item_Number	INT	0	0	 Item Number
+PCW.Roller.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+PCW.Roller.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+PCW.Roller.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+PCW.Roller.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+PCW.Roller.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+PCW.Roller.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+PCW.Roller.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Parked	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+PCW.Roller.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+PCW.Roller.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+PCW.Roller.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+PCW.Roller.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+PCW.Roller.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+PCW.Roller.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+RCW.Skate.Item_Number	INT	0	0	 Item Number
+RCW.Skate.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+RCW.Skate.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+RCW.Skate.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+RCW.Skate.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+RCW.Skate.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+RCW.Skate.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+RCW.Skate.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Parked	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Skate.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+RCW.Skate.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+RCW.Skate.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+RCW.Skate.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+RCW.Skate.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+RCW.Skate.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+RCW.Rta.Item_Number	INT	0	0	 Item Number
+RCW.Rta.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+RCW.Rta.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+RCW.Rta.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+RCW.Rta.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+RCW.Rta.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+RCW.Rta.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+RCW.Rta.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Parked	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+RCW.Rta.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+RCW.Rta.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+RCW.Rta.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+RCW.Rta.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+RCW.Rta.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+RCW.Rta.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+MW_EBT.Mach.Main.Item_Number	INT	0	0	 Item Number
+MW_EBT.Mach.Main.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+MW_EBT.Mach.Main.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+MW_EBT.Mach.Main.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+MW_EBT.Mach.Main.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+MW_EBT.Mach.Main.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+MW_EBT.Mach.Main.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+MW_EBT.Mach.Main.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Parked	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Main.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+MW_EBT.Mach.Main.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+MW_EBT.Mach.Main.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+MW_EBT.Mach.Main.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+MW_EBT.Mach.Main.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+MW_EBT.Mach.Main.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+MW_EBT.Mach.Jib.Line1.Item_Number	INT	50	50	 Item Number
+MW_EBT.Mach.Jib.Line1.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+MW_EBT.Mach.Jib.Line1.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+MW_EBT.Mach.Jib.Line1.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+MW_EBT.Mach.Jib.Line1.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+MW_EBT.Mach.Jib.Line1.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+MW_EBT.Mach.Jib.Line1.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+MW_EBT.Mach.Jib.Line1.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+MW_EBT.Mach.Jib.Line2.Item_Number	INT	50	50	 Item Number
+MW_EBT.Mach.Jib.Line2.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+MW_EBT.Mach.Jib.Line2.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+MW_EBT.Mach.Jib.Line2.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+MW_EBT.Mach.Jib.Line2.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+MW_EBT.Mach.Jib.Line2.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+MW_EBT.Mach.Jib.Line2.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+MW_EBT.Mach.Jib.Line2.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+MW_EBT.Mach.Jib.Line3.Item_Number	INT	50	50	 Item Number
+MW_EBT.Mach.Jib.Line3.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+MW_EBT.Mach.Jib.Line3.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+MW_EBT.Mach.Jib.Line3.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+MW_EBT.Mach.Jib.Line3.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+MW_EBT.Mach.Jib.Line3.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+MW_EBT.Mach.Jib.Line3.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+MW_EBT.Mach.Jib.Line3.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+MW_EBT.Mach.Jib.Line4.Item_Number	INT	50	50	 Item Number
+MW_EBT.Mach.Jib.Line4.Position.XA	REAL	0.000000e+000	0.000000e+000	 Base point X-coordinate
+MW_EBT.Mach.Jib.Line4.Position.YA	REAL	0.000000e+000	0.000000e+000	 Base point Y-coordinate
+MW_EBT.Mach.Jib.Line4.Position.ZA	REAL	0.000000e+000	0.000000e+000	 Base point Z-coordinate
+MW_EBT.Mach.Jib.Line4.Position.Slew	REAL	0.000000e+000	0.000000e+000	 Slew Angle (Rad)
+MW_EBT.Mach.Jib.Line4.Position.Tilt	REAL	0.000000e+000	0.000000e+000	 Tilt Angle (Rad)
+MW_EBT.Mach.Jib.Line4.Position.Length	REAL	0.000000e+000	0.000000e+000	 Length
+MW_EBT.Mach.Jib.Line4.Position.Width	REAL	0.000000e+000	0.000000e+000	 Width ( Radius)
+MW_EBT.Mach.Jib.Request.XposA	BOOL	FALSE	FALSE	 Request X positive direction point A
+MW_EBT.Mach.Jib.Request.XnegA	BOOL	FALSE	FALSE	 Request X negative direction point A
+MW_EBT.Mach.Jib.Request.YposA	BOOL	FALSE	FALSE	 Request Y positive direction point A
+MW_EBT.Mach.Jib.Request.YnegA	BOOL	FALSE	FALSE	 Request Y negative direction point A
+MW_EBT.Mach.Jib.Request.ZposA	BOOL	FALSE	FALSE	 Request Z positive direction point A
+MW_EBT.Mach.Jib.Request.ZnegA	BOOL	FALSE	FALSE	 Request Z negative direction point A
+MW_EBT.Mach.Jib.Request.XposB	BOOL	FALSE	FALSE	 Request X positive direction point B
+MW_EBT.Mach.Jib.Request.XnegB	BOOL	FALSE	FALSE	 Request X negative direction point B
+MW_EBT.Mach.Jib.Request.YposB	BOOL	FALSE	FALSE	 Request Y positive direction point B
+MW_EBT.Mach.Jib.Request.YnegB	BOOL	FALSE	FALSE	 Request Y negative direction point B
+MW_EBT.Mach.Jib.Request.ZposB	BOOL	FALSE	FALSE	 Request Z positive direction point B
+MW_EBT.Mach.Jib.Request.ZnegB	BOOL	FALSE	FALSE	 Request Z negative direction point B
+MW_EBT.Mach.Jib.Request.Cw	BOOL	FALSE	FALSE	 Request CW
+MW_EBT.Mach.Jib.Request.Ccw	BOOL	FALSE	FALSE	 Request CCW
+MW_EBT.Mach.Jib.Request.Ext	BOOL	FALSE	FALSE	 Request Extend
+MW_EBT.Mach.Jib.Request.Ret	BOOL	FALSE	FALSE	 Request Retract
+MW_EBT.Mach.Jib.Request.TiltUp	BOOL	FALSE	FALSE	 Request Tilt up
+MW_EBT.Mach.Jib.Request.TiltDown	BOOL	FALSE	FALSE	 Request Tilt down
+MW_EBT.Mach.Jib.Request.Spare1	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare2	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare3	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare4	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare5	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare6	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare7	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare8	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare9	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare10	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare11	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare12	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare13	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Jib.Request.Spare14	BOOL	FALSE	FALSE	 Spare
+MW_EBT.Mach.Head.Item_Number	INT	0	0	 Item Number
+MW_EBT.Mach.Head.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+MW_EBT.Mach.Head.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+MW_EBT.Mach.Head.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+MW_EBT.Mach.Head.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+MW_EBT.Mach.Head.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+MW_EBT.Mach.Head.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+MW_EBT.Mach.Head.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Parked	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Mach.Head.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+MW_EBT.Mach.Head.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+MW_EBT.Mach.Head.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+MW_EBT.Mach.Head.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+MW_EBT.Mach.Head.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+MW_EBT.Mach.Head.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
+MW_EBT.Stabber.Item_Number	INT	0	0	 Item Number
+MW_EBT.Stabber.Xpos	BOOL	FALSE	FALSE	 Request X positive direction
+MW_EBT.Stabber.Xneg	BOOL	FALSE	FALSE	 Request X negative direction
+MW_EBT.Stabber.Ypos	BOOL	FALSE	FALSE	 Request Y positive direction
+MW_EBT.Stabber.Yneg	BOOL	FALSE	FALSE	 Request Y negative direction
+MW_EBT.Stabber.Zpos	BOOL	FALSE	FALSE	 Request Z positive direction
+MW_EBT.Stabber.Zneg	BOOL	FALSE	FALSE	 Request Z negative direction
+MW_EBT.Stabber.Spare1	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare2	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Parked	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare4	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare5	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare6	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare7	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare8	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare9	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Spare10	BOOL	FALSE	FALSE	 Not used (, )
+MW_EBT.Stabber.Xmax	REAL	0.000000e+000	0.000000e+000	 Main frame X maximum position
+MW_EBT.Stabber.Xmin	REAL	0.000000e+000	0.000000e+000	 Main frame X minimum position
+MW_EBT.Stabber.Ymax	REAL	0.000000e+000	0.000000e+000	 Main frame Y maximum position
+MW_EBT.Stabber.Ymin	REAL	0.000000e+000	0.000000e+000	 Main frame Y minimum position
+MW_EBT.Stabber.Zmax	REAL	0.000000e+000	0.000000e+000	 Main frame Z maximum position
+MW_EBT.Stabber.Zmin	REAL	0.000000e+000	0.000000e+000	 Main frame Z minimum position
