@@ -31,7 +31,7 @@ class BaseRenderer():
 
         self.ib = IndexBuffer(size=self.MaxIndexCont)
 
-        self.shader = Shader("C:/Users/espen/PycharmProjects/QT6-OpenGL/res/shaders/shader.glsl")
+        self.shader = Shader("myopenglDir/shader/shader.glsl")
         self.shader.Bind()
         self.shader.SetUniform1iv("u_Textures", np.array(
             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,

@@ -1,6 +1,6 @@
 import glm
 import numpy as np
-from esper import component
+from dataclasses import dataclass as component
 from ACS_ECS.sceneCamera import SceneCamera
 
 
