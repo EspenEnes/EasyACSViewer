@@ -48,6 +48,7 @@ class Ui_Dialog(object):
         self.gridLayout_6 = QtWidgets.QGridLayout(self.groupBox_4)
         self.gridLayout_6.setObjectName("gridLayout_6")
         self.datablokTextBrowser = QtWidgets.QTextBrowser(self.groupBox_4)
+        self.datablokTextBrowser.setReadOnly(False)
         self.datablokTextBrowser.setObjectName("datablokTextBrowser")
         self.gridLayout_6.addWidget(self.datablokTextBrowser, 0, 0, 1, 1)
         self.DatablockParseBtn = QtWidgets.QPushButton(self.groupBox_4)

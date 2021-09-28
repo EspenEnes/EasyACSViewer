@@ -33,7 +33,7 @@ class Parser():
         for line in clipboard.split("\n"):
             if not len(line) > 0: break
 
-            lineItems = line.split("\t")
+            lineItems = [x.strip(" ") for x in line.split(" ") if len(x) > 0]
             byte = adress // 8
             bit = adress % 8
             adress += checkType(lineItems[1], Types)
