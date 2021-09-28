@@ -1,7 +1,8 @@
+
 import glm
 import numpy as np
 from dataclasses import dataclass as component
-from ACS_ECS.sceneCamera import SceneCamera
+from ECS.sceneCamera import SceneCamera
 
 
 @component
@@ -50,9 +51,11 @@ class MeshComponent:
 class RenderComponent:
     Visible : bool = False
 
+@component
 class LightComponent:
     color = (1,1,1)
 
+@component
 class AcsBoxComponent:
     Xmax : float = 0.0
     Xmin: float = 0.0
@@ -60,4 +63,9 @@ class AcsBoxComponent:
     Ymin: float = 0.0
     Zmax: float = 0.0
     Zmin: float = 0.0
+
+@component
+class ColorComponent:
+    RGBA: (float, float, float, float) = (0.5, 0.5, 0.5, 0.9)
+
 

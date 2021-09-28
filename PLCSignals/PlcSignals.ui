@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Signals</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="1" column="0" colspan="2">
+       <widget class="SignalView" name="Signal_treeView"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="SignalApplyBtn">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QToolButton" name="toolButton">
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>Filter</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="1" column="1">
+       <widget class="QPushButton" name="filterApplyBtn">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="filterEdit">
+        <property name="text">
+         <string>xmax, xmin, ymax, ymin, zmax, zmin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Comma seperated sufix filter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="title">
+      <string>Datablock Layout</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="0">
+       <widget class="QTextBrowser" name="datablokTextBrowser"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="DatablockParseBtn">
+        <property name="text">
+         <string>Parse</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="2" column="0">
+       <widget class="QPushButton" name="saveBtn">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="cancelBtn">
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="loadBtn">
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Add Signal</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="adressEdit"/>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="adressLabel">
+        <property name="text">
+         <string>Adress</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="nameEdit"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="nameLabel">
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="signalAddBtn">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SignalView</class>
+   <extends>QTreeView</extends>
+   <header>signalview.h</header>
+   <slots>
+    <slot>addSignal()</slot>
+    <slot>ToggleView()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>SignalApplyBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>applySignals()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>547</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>242</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DatablockParseBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>parseDatablock()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>filterApplyBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>applyFilter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>717</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>720</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Signal_treeView</receiver>
+   <slot>ToggleView()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>362</x>
+     <y>549</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>saveBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>saveData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>596</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>loadBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>loadData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>370</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancelBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>448</x>
+     <y>657</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>458</x>
+     <y>679</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signalAddBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>addSignal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>353</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Dialog</sender>
+   <signal>addSignalKeyValue()</signal>
+   <receiver>Signal_treeView</receiver>
+   <slot>addSignal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>766</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>347</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>addSignalKeyValue()</signal>
+  <slot>parseDatablock()</slot>
+  <slot>applyFilter()</slot>
+  <slot>applySignals()</slot>
+  <slot>saveData()</slot>
+  <slot>loadData()</slot>
+  <slot>addSignal()</slot>
+ </slots>
+</ui>

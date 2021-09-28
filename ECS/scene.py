@@ -3,8 +3,8 @@ from math import sin, cos
 import numpy as np
 from esper import World, Processor
 
-from ACS_ECS.components import *
-from ACS_ECS.entity import Entity
+from ECS.components import *
+from ECS.entity import Entity
 from myopenglDir.ACSBoxRenderer import ACS_Renderer
 from myopenglDir.skyboxrenderer import SkyBoxRenderer
 from myopenglDir.texture import CubeMap, Texture

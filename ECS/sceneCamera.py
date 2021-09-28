@@ -8,7 +8,7 @@ class SceneCamera():
     def __init__(self):
         self.m_Projection = np.matrix(glm.mat4(1.0))
 
-        self.m_PerspectiveFOV = glm.radians(45.0)
+        self.m_PerspectiveFOV = glm.radians(60.0)
         self.m_PerspectiveNear = 0.1
         self.m_PerspectiveFar = 1000.0
 

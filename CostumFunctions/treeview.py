@@ -6,8 +6,8 @@ from PyQt6.QtCore import QAbstractItemModel, QModelIndex, Qt
 from PyQt6.QtGui import QAction
 from PyQt6.QtWidgets import QTreeView, QMenu
 
-from ACS_ECS.components import *
-from ACS_ECS.scene import Scene
+from ECS.components import *
+from ECS.scene import Scene
 
 
 class TreeModel(QAbstractItemModel):
@@ -119,7 +119,8 @@ class TreeModel(QAbstractItemModel):
         test = OrderedDict()
         for ent, (Tag, ren) in scene.scene.get_components(TagComponent, RenderComponent):
             Tag: TagComponent
-            if not Tag.FriendlyName in test: test[Tag.FriendlyName] = ent
+            if not Tag.FriendlyName in test:
+                test[Tag.FriendlyName] = ent
         NodeTree = self.CreateNodeTree(test)
         self.setupModelData(NodeTree, parent)
 
@@ -130,6 +131,7 @@ class TreeModel(QAbstractItemModel):
             entityID: int = value
             nodes = key.split(".")
             nodeTree = self.creatBTree(nodes, 0, nodeTree, entityID)
+        print(nodeTree)
 
         return nodeTree
 
@@ -144,6 +146,7 @@ class TreeModel(QAbstractItemModel):
                 mdict[data[index]] = value
 
             self.creatBTree(data, index + 1, mdict[data[index]], value)
+
         return mdict
 
 

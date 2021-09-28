@@ -42,6 +42,8 @@
     </property>
     <addaction name="actionACS"/>
     <addaction name="actionEnviorment"/>
+    <addaction name="actionSignal_parser"/>
+    <addaction name="actionNode_Editor"/>
    </widget>
    <widget class="QMenu" name="menuShow">
     <property name="title">
@@ -133,6 +135,16 @@
   <action name="actionCompare">
    <property name="text">
     <string>Compare</string>
+   </property>
+  </action>
+  <action name="actionSignal_parser">
+   <property name="text">
+    <string>SignalParser</string>
+   </property>
+  </action>
+  <action name="actionNode_Editor">
+   <property name="text">
+    <string>NodeEditor</string>
    </property>
   </action>
  </widget>

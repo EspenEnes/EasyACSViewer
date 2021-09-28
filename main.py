@@ -1,11 +1,14 @@
+from collections import OrderedDict
+
 import snap7
 from PyQt6 import QtWidgets, QtCore
-from PyQt6.QtCore import QObject, pyqtSignal, QEvent, Qt
-from PyQt6.QtGui import QMouseEvent, QEnterEvent
+from PyQt6.QtCore import QObject, pyqtSignal, QEvent
+from PyQt6.QtGui import QEnterEvent
 
-from CostumFunctions.costumFunctions import dataViewParser, filterParsedData, ConcatDataArrayTree, UpdateEntityMesh
+from ECS.functions import UpdateEntityMesh
+from Simatic.functions import ConcatDataArrayTree
+from PLCSignals.plcSignals_UI import Signaldialog
 from Qt_Designs import main_ACS
-
 
 
 class Param:
@@ -19,106 +22,126 @@ class CostumSignals(QObject):
     Data = pyqtSignal(dict)
 
 
+
+
 class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
 
     def __init__(self, parent=None):
         super(ACSviewer, self).__init__(parent)
         self.setupUi(self)
+        self.debugmode = False
+
+        self.debugSimulatorTimer = QtCore.QTimer(self)
+        self.debugSimulatorTimer.setInterval(20)  # period, in milliseconds
+        self.debugSimulatorTimer.timeout.connect(self.simulator)
+
+
+        self.filterdData = OrderedDict()
 
         self.signals = CostumSignals()
         self.openGLWidget.signals.initializeGL_Done.connect(self.GLinitialized)
         self.openGLWidget.signals.EcsScene_Created.connect(self.SceneCreated)
         self.openGLWidget.signals.Entity_clicked.connect(self.textBrowser.setText)
 
+        self.SignalParser = Signaldialog()
+        self.actionSignal_parser.triggered.connect(lambda: self.SignalParser.show())
+        self.SignalParser.DataSignal.connect(self.aaa)
 
-
-
+        self.actionNode_Editor.triggered.connect(lambda: self.EntityCreator.show())
 
         client = snap7.client.Client()
 
-        with open("res/dbtest", "rb") as ff:
-            _bytearray = bytearray(ff.read())
-            snap7.util.set_real(_bytearray, 24, 105)
-            snap7.util.set_real(_bytearray, 28, 95)
-            snap7.util.set_real(_bytearray, 32, 102)
-            snap7.util.set_real(_bytearray, 36, 95)
-            snap7.util.set_real(_bytearray, 40, 50.0)
-            snap7.util.set_real(_bytearray, 44, 0.0)
 
-            snap7.util.set_real(_bytearray, 52, 102)
-            snap7.util.set_real(_bytearray, 56, 98)
-            snap7.util.set_real(_bytearray, 60, 102)
-            snap7.util.set_real(_bytearray, 64, 98)
-            snap7.util.set_real(_bytearray, 68, 50.0)
-            snap7.util.set_real(_bytearray, 72, 0.0)
+        #Simulator parameters
+        self.TDMainframeZ = 0.0
+        self.TDMainframeZ_dir = True
 
-            snap7.util.set_real(_bytearray, 80, 100.5)
-            snap7.util.set_real(_bytearray, 84, 99.5)
-            snap7.util.set_real(_bytearray, 88, 101)
-            snap7.util.set_real(_bytearray, 92, 99)
-            snap7.util.set_real(_bytearray, 96, 50.0)
-            snap7.util.set_real(_bytearray, 100,0.0)
+        self.TDToolframeZ = 0.0
+        self.TDToolframeZ_dir = True
 
-            snap7.util.set_real(_bytearray, 108, 102)
-            snap7.util.set_real(_bytearray, 112, 98)
-            snap7.util.set_real(_bytearray, 116, 95)
-            snap7.util.set_real(_bytearray, 120, 90)
-            snap7.util.set_real(_bytearray, 124, 4.0)
-            snap7.util.set_real(_bytearray, 128, 0.0)
+        self.TDElevframeZ = 0.0
+        self.TDElevframeZ_dir = True
 
-            snap7.util.set_real(_bytearray, 136, 102)
-            snap7.util.set_real(_bytearray, 140, 98)
-            snap7.util.set_real(_bytearray, 144, 95)
-            snap7.util.set_real(_bytearray, 148, 93)
-            snap7.util.set_real(_bytearray, 152, 2.0)
-            snap7.util.set_real(_bytearray, 156, 0.0)
+    def simulator(self):
+        if self.TDMainframeZ_dir:
+            self.TDMainframeZ += 0.1
+        else:
+            self.TDMainframeZ -= 0.1
 
-            snap7.util.set_real(_bytearray, 164, 101)
-            snap7.util.set_real(_bytearray, 168, 99)
-            snap7.util.set_real(_bytearray, 172, 94.5)
-            snap7.util.set_real(_bytearray, 176, 93)
-            snap7.util.set_real(_bytearray, 180, 4.0)
-            snap7.util.set_real(_bytearray, 184, 2.0)
+        if self.TDMainframeZ > 40.0:
+            self.TDMainframeZ_dir = False
+        elif  self.TDMainframeZ < 5.0:
+            self.TDMainframeZ_dir = True
+        snap7.util.set_real(self._bytearray, 44, self.TDMainframeZ)
 
-        with open("res/dbtest2", "wb") as ff:
-            ff.write(_bytearray)
+        if self.TDToolframeZ_dir:
+            self.TDToolframeZ += 0.5
+        else:
+            self.TDToolframeZ -= 0.5
+
+        if self.TDToolframeZ > 35.0:
+            self.TDToolframeZ_dir = False
+        elif  self.TDToolframeZ < 0.0:
+            self.TDToolframeZ_dir = True
+        snap7.util.set_real(self._bytearray, 72, self.TDToolframeZ)
+
+        if self.TDElevframeZ_dir:
+            self.TDElevframeZ += 0.5
+        else:
+            self.TDElevframeZ -= 0.5
+
+        if self.TDElevframeZ > 20.0:
+            self.TDElevframeZ_dir = False
+        elif self.TDElevframeZ < 0.0:
+            self.TDElevframeZ_dir = True
+        snap7.util.set_real(self._bytearray, 100, self.TDElevframeZ)
+
+        self.data = ConcatDataArrayTree(self._bytearray, self.filterdData)
+        self.UpdateECS()
+        self.debugSimulatorTimer.start()
+
+    def aaa(self, data):
+        if self.debugmode:
+            self._bytearray = self.debugpopulatData()
+            self.debugSimulatorTimer.start()
+        self.filterdData = data
+        self.data = ConcatDataArrayTree(self._bytearray, self.filterdData)
+        self.openGLWidget.signals.Data.emit(self.filterdData)
 
 
-        with open("res/dbtest2", "rb") as f:
+        self.UpdateECS()
+
+
+
+    def debugpopulatData(self):
+        with open("res/dbtest", "rb") as f:
             _bytearray = bytearray(f.read())
+        return _bytearray
 
-        parsed = dataViewParser("res/test")
-
-        self.filterdData = filterParsedData(parsed)
-
-
-        self.data = ConcatDataArrayTree(_bytearray, self.filterdData)
 
     def GLinitialized(self):
-        self.openGLWidget.signals.Data.emit(self.filterdData)
+        pass
+        # self.openGLWidget.signals.Data.emit(self.filterdData)
 
     def SceneCreated(self, scene):
         self.treeView.initData(scene)
-
         self.UpdateECS()
 
     def UpdateECS(self):
         UpdateEntityMesh(self.data, self.openGLWidget.scene)
 
-
     def eventFilter(self, a0: 'QObject', a1: 'QEvent') -> bool:
 
-        if a0 == self.openGLWidget:
-            self.openGLWidget.event(a1)
-            return True
-
-        if a1.type() == QEvent.Type.KeyPress:
-            self.openGLWidget.event(a1)
-            return True
-        if a1.type() == QEvent.Type.KeyRelease:
-            self.openGLWidget.event(a1)
-            return True
-
+        # if a0 == self.openGLWidget:
+        #     self.openGLWidget.event(a1)
+        #     return True
+        #
+        # if a1.type() == QEvent.Type.KeyPress:
+        #     self.openGLWidget.event(a1)
+        #     return True
+        # if a1.type() == QEvent.Type.KeyRelease:
+        #     self.openGLWidget.event(a1)
+        #     return True
 
         if a0 == self.treeView:
             if a1 == QEnterEvent:
@@ -126,8 +149,6 @@ class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
             # print(a1.)
 
         return super().eventFilter(a0, a1)
-
-
 
         # # creatEcsEntitys(filterdData,  self.openGLWidget.scene)
         #
@@ -155,17 +176,31 @@ class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
 #
 #
 # # Read in test DB bytearray
-with open("res/dbtest", "rb") as f:
-    _bytearray = bytearray(f.read())
-    snap7.util.set_real(_bytearray,24,99.0)
-    snap7.util.set_real(_bytearray, 28, 101.0)
-    snap7.util.set_real(_bytearray, 32, 95)
-    snap7.util.set_real(_bytearray, 36, 100.2)
-    snap7.util.set_real(_bytearray, 40, 10.0)
-    snap7.util.set_real(_bytearray, 44, 50)
-
-with open("res/dbtest", "wb") as f:
-    f.write(_bytearray)
+# with open("res/dbtest", "rb") as f:
+#     _bytearray = bytearray(f.read())
+#     snap7.util.set_real(_bytearray, 24, 95.0)
+#     snap7.util.set_real(_bytearray, 28, 105.0)
+#     snap7.util.set_real(_bytearray, 32, 95)
+#     snap7.util.set_real(_bytearray, 36, 100.2)
+#     snap7.util.set_real(_bytearray, 40, 50.0)
+#     snap7.util.set_real(_bytearray, 44, 10)
+#     #
+#     snap7.util.set_real(_bytearray, 52, 96.0)
+#     snap7.util.set_real(_bytearray, 56, 104.0)
+#     snap7.util.set_real(_bytearray, 60, 96)
+#     snap7.util.set_real(_bytearray, 64, 100.2)
+#     snap7.util.set_real(_bytearray, 68, 50.0)
+#     snap7.util.set_real(_bytearray, 72, 9)
+#
+#     snap7.util.set_real(_bytearray, 80, 97.0)
+#     snap7.util.set_real(_bytearray, 84, 103.0)
+#     snap7.util.set_real(_bytearray, 88, 97)
+#     snap7.util.set_real(_bytearray, 92, 100.2)
+#     snap7.util.set_real(_bytearray, 96, 50.0)
+#     snap7.util.set_real(_bytearray, 100, 8)
+#
+# with open("res/dbtest", "wb") as f:
+#     f.write(_bytearray)
 #
 #
 # # Create a Client to of Snap7
@@ -213,6 +248,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # view = TreeView(scene)
     view = ACSviewer()
+    view.debugmode = True
     app.installEventFilter(view)
     view.show()
     # app.exec()

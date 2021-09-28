@@ -5,7 +5,7 @@ from PyQt6.QtGui import QKeyEvent
 import glm
 
 
-from ACS_ECS.components import *
+from ECS.components import *
 
 
 

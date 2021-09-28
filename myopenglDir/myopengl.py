@@ -8,10 +8,11 @@ from PyQt6.QtGui import QMouseEvent, QContextMenuEvent, QAction
 from PyQt6.QtOpenGLWidgets import QOpenGLWidget
 from PyQt6.QtWidgets import QWidget, QMenu
 
-from ACS_ECS.components import *
-from ACS_ECS.scene import Scene, TagComponent, RenderComponent
-from ACS_ECS.sceneCameraController import CameraController
-from CostumFunctions.costumFunctions import creatEcsEntitys, SkyboxCube, Quad2d
+from ECS.components import *
+from ECS.scene import Scene, TagComponent, RenderComponent
+from ECS.sceneCameraController import CameraController
+from CostumFunctions.costumFunctions import SkyboxCube, Quad2d
+from ECS.functions import creatEcsEntitys
 from myopenglDir.framebuffer import Framebuffer
 from myopenglDir.offlinerenderer import OfflineRenderer
 
@@ -52,6 +53,9 @@ class MyOPENGL(QOpenGLWidget):
         self.previusdt = datetime.datetime.now()
 
     def update2(self):
+        if self.SelectedEntity is None:
+            return
+
         if self.SelectedEntity >= 0:
 
             tag = self.scene.scene.component_for_entity(self.SelectedEntity , TagComponent)
@@ -91,7 +95,6 @@ class MyOPENGL(QOpenGLWidget):
             return True
         elif e.type() == QtCore.QEvent.Type.KeyRelease:
             self.CameraController.keyreleaseevent(e)
-
             return True
         return super(MyOPENGL, self).event(e)
 
@@ -112,8 +115,29 @@ class MyOPENGL(QOpenGLWidget):
         ren.Visible = False
 
     def ECSEntitys(self, data):
-        self.scene = Scene()
+
         creatEcsEntitys(data, self.scene)
+
+
+
+
+
+        self.signals.EcsScene_Created.emit(self.scene)
+
+    def initializeGL(self):
+        glClearColor(1.0, 1.0, 1.0, 1.0)
+
+        glEnable(GL_BLEND)
+        glEnable(GL_DEPTH_TEST)
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
+
+        self.FBO = Framebuffer(2, 1, self.width(), self.height())
+
+
+
+        self.offlinerenderer = OfflineRenderer()
+        self.scene = Scene()
+        self.CameraController = CameraController(self.scene)
 
         camera = self.scene.CreateEntity("Camera")
         camera.AddComponent(CameraComponent())
@@ -158,24 +182,8 @@ class MyOPENGL(QOpenGLWidget):
         ren: RenderComponent = floor.GetComponent(RenderComponent)
         ren.Visible = True
 
-        self.CameraController = CameraController(self.scene)
-
-        self.signals.EcsScene_Created.emit(self.scene)
-
-    def initializeGL(self):
-        glClearColor(1.0, 1.0, 1.0, 1.0)
-
-        glEnable(GL_BLEND)
-        glEnable(GL_DEPTH_TEST)
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
-
-        self.FBO = Framebuffer(2, 1, self.width(), self.height())
-
-
-
-        self.offlinerenderer = OfflineRenderer()
-
         self.signals.initializeGL_Done.emit(True)
+
 
     def resizeGL(self, width, height):
         self.FBO.Resize(width, height)

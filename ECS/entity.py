@@ -1,6 +1,6 @@
 import esper
 
-from ACS_ECS.components import TransformComponent
+from ECS.components import TransformComponent
 
 
 class Entity():

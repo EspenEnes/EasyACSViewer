@@ -76,8 +76,14 @@ class Ui_MainWindow(object):
         self.actionDetails_2.setObjectName("actionDetails_2")
         self.actionCompare = QtGui.QAction(MainWindow)
         self.actionCompare.setObjectName("actionCompare")
+        self.actionSignal_parser = QtGui.QAction(MainWindow)
+        self.actionSignal_parser.setObjectName("actionSignal_parser")
+        self.actionNode_Editor = QtGui.QAction(MainWindow)
+        self.actionNode_Editor.setObjectName("actionNode_Editor")
         self.menu_Config.addAction(self.actionACS)
         self.menu_Config.addAction(self.actionEnviorment)
+        self.menu_Config.addAction(self.actionSignal_parser)
+        self.menu_Config.addAction(self.actionNode_Editor)
         self.menuShow.addAction(self.actionMacines)
         self.menuShow.addAction(self.actionDetails)
         self.menubar.addAction(self.menu_Config.menuAction())
@@ -102,6 +108,9 @@ class Ui_MainWindow(object):
         self.actionUnhide.setText(_translate("MainWindow", "Unhide"))
         self.actionDetails_2.setText(_translate("MainWindow", "Details"))
         self.actionCompare.setText(_translate("MainWindow", "Compare"))
+        self.actionSignal_parser.setText(_translate("MainWindow", "SignalParser"))
+        self.actionNode_Editor.setText(_translate("MainWindow", "NodeEditor"))
+
 from CostumFunctions.treeview import TreeView
 from costumstatusbar import CostumStatusBar
 from myopenglDir.myopengl import MyOPENGL
