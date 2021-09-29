@@ -17,7 +17,7 @@ def creatEcsEntitys(Nodes : OrderedDict,scene):
             entity.AddComponent(AcsBoxComponent())
             entity.AddComponent(ColorComponent())
             color: ColorComponent = entity.GetComponent(ColorComponent)
-            color.RGBA = (randrange(10, 100) / 100, randrange(10, 100) / 100, randrange(10, 100) / 100, 0.9)
+            color.RGBA = (randrange(10, 100) / 100, randrange(10, 100) / 100, randrange(10, 100) / 100, 1.0)
 
 
 def UpdateEntityMesh(data, scene):
