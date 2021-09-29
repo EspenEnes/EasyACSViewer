@@ -1,15 +1,6 @@
 import typing
 from collections import OrderedDict
 from anytree import Node, search
-from dataclasses import dataclass
-
-@dataclass
-class PLC_Config:
-    IP: str
-    Rack: int
-    Slot: int
-    Db: int
-
 
 
 def OrderdDictInsert(root: OrderedDict, index: int, newKey: str, newValue = typing.Any) -> OrderedDict:

@@ -1,4 +1,6 @@
 from collections import OrderedDict
+from dataclasses import dataclass
+
 import snap7
 
 def dataViewParser(path: str) -> OrderedDict:
@@ -46,7 +48,15 @@ def ConcatDataArrayTree(dataArray: bytearray, Nodes: OrderedDict) -> OrderedDict
                 data = snap7.util.get_int(dataArray, byte)
 
             if dataType == "REAL":
-                data =  snap7.util.get_real(dataArray, byte)
+                data = snap7.util.get_real(dataArray, byte)
             Output[key] = data
 
     return Output
+
+
+@dataclass
+class PLC_Config:
+    IP: str
+    Rack: int
+    Slot: int
+    Db: int

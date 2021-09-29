@@ -200,6 +200,7 @@ class TreeView(QTreeView):
     def initData(self, data):
         self.modelData = TreeModel(data)
         self.setModel(self.modelData)
+        self.modelData.layoutChanged.emit()
 
 
 
