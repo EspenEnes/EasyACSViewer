@@ -11,7 +11,7 @@ from functions import OrderdDictInsert, createNodeTree
 
 
 class SignalView(QTreeView):
-    newData = pyqtSignal(OrderedDict)
+    onNewData = pyqtSignal(OrderedDict)
 
     def __init__(self, parent=None):
         super(SignalView, self).__init__(parent)
@@ -40,7 +40,6 @@ class SignalView(QTreeView):
         self._contextMenu.exec(self.viewport().mapToGlobal(position))
 
     def addSignal(self, key=None, value=None):
-        print(key)
         idx: QModelIndex = self.currentIndex()
         self.currentModel.insertRow(idx.row(), idx.parent(), key, value)
 

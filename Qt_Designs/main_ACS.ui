@@ -36,24 +36,40 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menu_Config">
-    <property name="title">
-     <string>&amp;Config</string>
-    </property>
-    <addaction name="actionACS"/>
-    <addaction name="actionEnviorment"/>
-    <addaction name="actionSignal_parser"/>
-    <addaction name="actionNode_Editor"/>
-   </widget>
    <widget class="QMenu" name="menuShow">
     <property name="title">
-     <string>Show</string>
+     <string>View</string>
     </property>
     <addaction name="actionMacines"/>
     <addaction name="actionDetails"/>
    </widget>
-   <addaction name="menu_Config"/>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionSignals"/>
+    <addaction name="actionNodes"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionRun"/>
+    <addaction name="actionSimulator"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
    <addaction name="menuShow"/>
+   <addaction name="menuRun"/>
   </widget>
   <widget class="CostumStatusBar" name="statusbar"/>
   <widget class="QDockWidget" name="dockWidget_2">
@@ -97,16 +113,6 @@
     </layout>
    </widget>
   </widget>
-  <action name="actionACS">
-   <property name="text">
-    <string>Config</string>
-   </property>
-  </action>
-  <action name="actionEnviorment">
-   <property name="text">
-    <string>Overview</string>
-   </property>
-  </action>
   <action name="actionMacines">
    <property name="text">
     <string>Macines</string>
@@ -117,34 +123,42 @@
     <string>Details</string>
    </property>
   </action>
-  <action name="actionHide">
+  <action name="actionOpen">
    <property name="text">
-    <string>Hide</string>
+    <string>Open...</string>
    </property>
   </action>
-  <action name="actionUnhide">
+  <action name="actionSave">
    <property name="text">
-    <string>Unhide</string>
+    <string>Save As...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
    </property>
   </action>
-  <action name="actionDetails_2">
+  <action name="actionExit">
    <property name="text">
-    <string>Details</string>
+    <string>Exit</string>
    </property>
   </action>
-  <action name="actionCompare">
+  <action name="actionSignals">
    <property name="text">
-    <string>Compare</string>
+    <string>Signals</string>
    </property>
   </action>
-  <action name="actionSignal_parser">
+  <action name="actionNodes">
    <property name="text">
-    <string>SignalParser</string>
+    <string>Nodes</string>
    </property>
   </action>
-  <action name="actionNode_Editor">
+  <action name="actionRun">
    <property name="text">
-    <string>NodeEditor</string>
+    <string>Run...</string>
+   </property>
+  </action>
+  <action name="actionSimulator">
+   <property name="text">
+    <string>Simulator...</string>
    </property>
   </action>
  </widget>
@@ -199,5 +213,125 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionOpen</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onDeSerialize()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSave</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onSerialize()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionRun</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onRun()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSimulator</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onSimulator()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionNodes</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onOpenNodeDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSignals</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onOpenSignalDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
+ <slots>
+  <slot>onDeSerialize()</slot>
+  <slot>onSerialize()</slot>
+  <slot>onOpenSignalDialog()</slot>
+  <slot>onOpenNodeDialog()</slot>
+  <slot>onRun()</slot>
+  <slot>onSimulator()</slot>
+ </slots>
 </ui>

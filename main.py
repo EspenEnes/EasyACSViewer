@@ -17,23 +17,47 @@ class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
         self.setupUi(self)
         self.debugmode = False
 
-        self.openGLWidget.signals.EcsScene_Created.connect(self.SceneCreated)
+        self.openGLWidget.signals.EcsScene_Created.connect(self.onSceneCreated)
         self.openGLWidget.signals.Entity_clicked.connect(self.textBrowser.setText)
-        self.actionSignal_parser.triggered.connect(self.openSignalDialog)
+        # self.actionSignal_parser.triggered.connect(self.onOpenSignalDialog)
         self.threadpool = QThreadPool()
 
+    def onDeSerialize(self):
+        pass
 
-    def openSignalDialog(self):
+    def onSerialize(self):
+        pass
+
+    def onRun(self):
+        pass
+
+    def onSimulator(self):
+        if not self.debugmode:
+            self.debugmode = True
+            print("Simulator Mode On")
+        else:
+            self.debugmode = False
+            print("Simulator Mode Off")
+
+
+
+    def onOpenNodeDialog(self):
+        pass
+
+
+    def onOpenSignalDialog(self):
         #lazy implementation so application starts quicker
+        print("here")
         self.SignalParser = Signaldialog()
-        self.SignalParser.DataSignal.connect(self.aaa)
+        self.SignalParser.DataSignal.connect(self.onFilterdSignalList)
         self.SignalParser.show()
 
 
-    def aaa(self, data):
+    def onFilterdSignalList(self, data):
+        """Recives the applied signal list from Signaldialog widget"""
         if self.debugmode:
             self.worker = PLC_Worker(data)
-            self.worker.Signals.PLC_Data.connect(self.newData)
+            self.worker.Signals.PLC_Data.connect(self.onNewData)
             self.threadpool.start(self.worker)
 
         self.data = OrderedDict()
@@ -41,19 +65,19 @@ class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
             self.data[key] = 0.0
 
         self.openGLWidget.signals.Data.emit(data)
-        self.UpdateECS()
+        self.onUpdateECS()
 
-    def newData(self, data: OrderedDict):
+    def onNewData(self, data: OrderedDict):
         self.data = data
 
-        self.UpdateECS()
+        self.onUpdateECS()
 
 
-    def SceneCreated(self, scene):
+    def onSceneCreated(self, scene):
         self.treeView.initData(scene)
         # self.UpdateECS()
 
-    def UpdateECS(self):
+    def onUpdateECS(self):
         UpdateEntityMesh(self.data, self.openGLWidget.scene)
 
     def eventFilter(self, a0: 'QObject', a1: 'QEvent') -> bool:
@@ -70,7 +94,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # view = TreeView(scene)
     view = ACSviewer()
-    view.debugmode = True
+    view.debugmode = False
     app.installEventFilter(view)
     view.show()
     # app.exec()

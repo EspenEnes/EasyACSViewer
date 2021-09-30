@@ -14,7 +14,7 @@ class Signaldialog(QtWidgets.QWidget, PlcSignals.Ui_Dialog):
         super(Signaldialog, self).__init__(parent)
         self.setupUi(self)
 
-        self.Signal_treeView.newData.connect(self.applyNewData)
+        self.Signal_treeView.onNewData.connect(self.applyNewData)
 
         self.filterKeywords = ["xmax", "xmin", "ymax", "ymin", "zmax", "zmin"]
         self.filterdData = OrderedDict()
