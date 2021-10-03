@@ -70,7 +70,7 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
 
     def onOpenSignalDialog(self):
         #lazy implementation so application starts quicker
-        self.SignalParser = Signaldialog()
+        self.SignalParser = Signaldialog(self.signalLayout)
         self.SignalParser.DataSignal.connect(self.onFilterdSignalList)
         self.SignalParser.show()
 

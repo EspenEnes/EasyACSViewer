@@ -10,14 +10,14 @@ class Signaldialog(QtWidgets.QWidget, PlcSignals.Ui_Dialog):
     addSignalKeyValue = pyqtSignal(str, str)
     DataSignal = pyqtSignal(OrderedDict)
 
-    def __init__(self, parent=None):
+    def __init__(self, layout , parent=None):
         super(Signaldialog, self).__init__(parent)
         self.setupUi(self)
 
         self.Signal_treeView.onNewData.connect(self.applyNewData)
 
         self.filterKeywords = ["xmax", "xmin", "ymax", "ymin", "zmax", "zmin"]
-        self.filterdData = OrderedDict()
+        self.filterdData = layout
         self.Signal_treeView.loadData(self.filterdData)
 
     def applyNewData(self, data):
