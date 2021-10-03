@@ -11,7 +11,7 @@ from Simatic.plc_simulator import Simulator_Worker
 from Simatic.plc_worker import PLC_Worker
 from Simatic.functions import PLC_Config
 from serializer import Serializer
-
+from PLCConfig.PlcCofig_UI import PlcConfigdialog
 class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
 
 
@@ -90,6 +90,16 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
         self.data = data
 
         self.onUpdateECS()
+
+    def onPlcConfig(self):
+        # lazy implementation so application starts quicker
+        self.PLCConfig = PlcConfigdialog(self.PLC_Config)
+        self.PLCConfig.data.connect(self.onNewPlcConfig)
+        self.PLCConfig.show()
+
+    def onNewPlcConfig(self, data):
+        self.PLC_Config = data
+
 
 
     def onSceneCreated(self, scene):

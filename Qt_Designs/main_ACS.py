@@ -85,6 +85,8 @@ class Ui_MainWindow(object):
         self.actionSimulator.setCheckable(True)
         self.actionSimulator.setChecked(False)
         self.actionSimulator.setObjectName("actionSimulator")
+        self.actionPlcConfig = QtGui.QAction(MainWindow)
+        self.actionPlcConfig.setObjectName("actionPlcConfig")
         self.menuShow.addAction(self.actionMacines)
         self.menuShow.addAction(self.actionDetails)
         self.menuFile.addAction(self.actionOpen)
@@ -93,6 +95,8 @@ class Ui_MainWindow(object):
         self.menuFile.addAction(self.actionExit)
         self.menuEdit.addAction(self.actionSignals)
         self.menuEdit.addAction(self.actionNodes)
+        self.menuEdit.addSeparator()
+        self.menuEdit.addAction(self.actionPlcConfig)
         self.menuRun.addAction(self.actionRun)
         self.menuRun.addAction(self.actionSimulator)
         self.menubar.addAction(self.menuFile.menuAction())
@@ -110,6 +114,7 @@ class Ui_MainWindow(object):
         self.actionSimulator.triggered.connect(MainWindow.onSimulator)
         self.actionNodes.triggered.connect(MainWindow.onOpenNodeDialog)
         self.actionSignals.triggered.connect(MainWindow.onOpenSignalDialog)
+        self.actionPlcConfig.triggered.connect(MainWindow.onPlcConfig)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -130,6 +135,7 @@ class Ui_MainWindow(object):
         self.actionNodes.setText(_translate("MainWindow", "Nodes"))
         self.actionRun.setText(_translate("MainWindow", "Run..."))
         self.actionSimulator.setText(_translate("MainWindow", "Simulator..."))
+        self.actionPlcConfig.setText(_translate("MainWindow", "PLCConfig"))
 from CostumFunctions.treeview import TreeView
 from costumstatusbar import CostumStatusBar
 from myopenglDir.myopengl import MyOPENGL
