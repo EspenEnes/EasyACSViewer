@@ -28,15 +28,18 @@ class Simulator:
 class Signals(QObject):
     PLC_Data = pyqtSignal(OrderedDict)
     PLC_Error = pyqtSignal(str)
+    PLC_Stop = pyqtSignal()
 
 
-class PLC_Worker(QRunnable):
+class Simulator_Worker(QRunnable):
 
     def __init__(self, layout:OrderedDict):
-        super(PLC_Worker, self).__init__()
+        super(Simulator_Worker, self).__init__()
         self.Signals = Signals()
         self.layout = layout
-        self.run_exec = True
+        self.stop_exec = False
+
+        self.Signals.PLC_Stop.connect(self.stop)
 
         self.Machines = Simulator
 
@@ -45,8 +48,9 @@ class PLC_Worker(QRunnable):
             _bytearray = bytearray(f.read())
 
         self.simulatorDataInit(_bytearray)
+        self.stop_exec = False
 
-        while self.run_exec:
+        while not self.stop_exec:
             self.moveMachinesZdir(self.Machines.TdMainFrame, 40.0, 5.0, 0.6)
             snap7.util.set_real(_bytearray, 44, self.Machines.TdMainFrame.zmin)
             data = ConcatDataArrayTree(_bytearray, self.layout)
@@ -55,8 +59,8 @@ class PLC_Worker(QRunnable):
 
 
 
-    def start_exec(self, run: bool):
-        self.run_exec = run
+    def stop(self):
+        self.stop_exec = True
 
     def connectClient(self):
         with open("res/dbtest", "rb") as f:

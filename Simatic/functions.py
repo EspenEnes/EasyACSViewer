@@ -56,7 +56,7 @@ def ConcatDataArrayTree(dataArray: bytearray, Nodes: OrderedDict) -> OrderedDict
 
 @dataclass
 class PLC_Config:
-    IP: str
-    Rack: int
-    Slot: int
-    Db: int
+    IP: str = "192.168.10.118"
+    Rack: int = 0
+    Slot: int = 2
+    Db: int = 2121

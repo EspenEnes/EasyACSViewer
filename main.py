@@ -1,53 +1,75 @@
 from collections import OrderedDict
 
-import snap7
-from PyQt6 import QtWidgets
 from PyQt6.QtCore import QObject, pyqtSignal, QEvent, QThreadPool
 from PyQt6.QtGui import QEnterEvent
+from PyQt6.QtWidgets import QMainWindow
 
 from ECS.functions import UpdateEntityMesh
 from PLCSignals.plcSignals_UI import Signaldialog
 from Qt_Designs import main_ACS
-from Simatic.plc_simulator import PLC_Worker
+from Simatic.plc_simulator import Simulator_Worker
+from Simatic.plc_worker import PLC_Worker
+from Simatic.functions import PLC_Config
+from serializer import Serializer
 
-class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
+class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
+
 
     def __init__(self, parent=None):
         super(ACSviewer, self).__init__(parent)
         self.setupUi(self)
-        self.debugmode = False
+        self.PLC_Config = PLC_Config()
+        self.signalLayout = OrderedDict()
 
         self.openGLWidget.signals.EcsScene_Created.connect(self.onSceneCreated)
         self.openGLWidget.signals.Entity_clicked.connect(self.textBrowser.setText)
-        # self.actionSignal_parser.triggered.connect(self.onOpenSignalDialog)
         self.threadpool = QThreadPool()
 
+
     def onDeSerialize(self):
-        pass
+        self.signalLayout, self.PLC_Config = Serializer.deserrialize()
+        self.onFilterdSignalList(self.signalLayout)
 
     def onSerialize(self):
-        pass
+       Serializer.serialize(self.signalLayout , self.PLC_Config)
 
     def onRun(self):
-        pass
+        if self.actionRun.isChecked():
+            self.plcWorker = PLC_Worker(self.PLC_Config, self.signalLayout)
+            self.plcWorker.signals.PLC_Error.connect(self.onPlcError)
+            self.plcWorker.signals.PLC_Data.connect(self.onNewData)
+            self.threadpool.start(self.plcWorker)
+            self.actionSimulator.setDisabled(True)
+        else:
+            self.plcWorker.signals.PLC_Stop.emit()
+            self.actionSimulator.setEnabled(True)
+
 
     def onSimulator(self):
-        if not self.debugmode:
-            self.debugmode = True
+        if self.actionSimulator.isChecked():
+            self.simulatorWorker = Simulator_Worker(self.signalLayout)
+            self.simulatorWorker.Signals.PLC_Data.connect(self.onNewData)
+            self.threadpool.start(self.simulatorWorker)
+            self.actionRun.setDisabled(True)
             print("Simulator Mode On")
         else:
-            self.debugmode = False
+            self.simulatorWorker.Signals.PLC_Stop.emit()
+            self.actionRun.setEnabled(True)
             print("Simulator Mode Off")
+
+    def onPlcError(self, error):
+        self.actionRun.setChecked(False)
+        self.actionSimulator.setEnabled(True)
+        self.textBrowser.setText(error)
 
 
 
     def onOpenNodeDialog(self):
-        pass
+        pass #todo lage en node creator, der man bruker signalene man får fra SignalDialogen
 
 
     def onOpenSignalDialog(self):
         #lazy implementation so application starts quicker
-        print("here")
         self.SignalParser = Signaldialog()
         self.SignalParser.DataSignal.connect(self.onFilterdSignalList)
         self.SignalParser.show()
@@ -55,10 +77,7 @@ class ACSviewer(QtWidgets.QMainWindow, main_ACS.Ui_MainWindow):
 
     def onFilterdSignalList(self, data):
         """Recives the applied signal list from Signaldialog widget"""
-        if self.debugmode:
-            self.worker = PLC_Worker(data)
-            self.worker.Signals.PLC_Data.connect(self.onNewData)
-            self.threadpool.start(self.worker)
+        self.signalLayout = data
 
         self.data = OrderedDict()
         for key in data:
@@ -94,7 +113,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # view = TreeView(scene)
     view = ACSviewer()
-    view.debugmode = False
     app.installEventFilter(view)
     view.show()
     # app.exec()

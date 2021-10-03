@@ -152,11 +152,20 @@
    </property>
   </action>
   <action name="actionRun">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="text">
     <string>Run...</string>
    </property>
   </action>
   <action name="actionSimulator">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Simulator...</string>
    </property>
@@ -220,8 +229,8 @@
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>67</x>
-     <y>81</y>
+     <x>-1</x>
+     <y>-1</y>
     </hint>
     <hint type="destinationlabel">
      <x>436</x>
@@ -268,8 +277,8 @@
    <slot>onRun()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>436</x>
-     <y>344</y>
+     <x>-1</x>
+     <y>-1</y>
     </hint>
     <hint type="destinationlabel">
      <x>436</x>

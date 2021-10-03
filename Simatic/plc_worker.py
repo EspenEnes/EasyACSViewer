@@ -8,31 +8,37 @@ from collections import OrderedDict
 class Signals(QObject):
     PLC_Data = pyqtSignal(OrderedDict)
     PLC_Error = pyqtSignal(str)
+    PLC_Stop = pyqtSignal()
 
 class PLC_Worker(QRunnable):
-    def __init__(self, client: Client, config: PLC_Config, layout:OrderedDict):
+    def __init__(self, config: PLC_Config, layout:OrderedDict):
         super(PLC_Worker, self).__init__()
-        self.signals = Signals
-        self.client = client
+        self.signals = Signals()
+        self.client = Client()
         self.config = config
         self.layout = layout
-        self.run_exec = False
+        self.stop_exec = False
+
+        self.signals.PLC_Stop.connect(self.stop)
 
     def run(self) -> None:
-        while self.run_exec and self.client.get_connected():
+        self.connectClient()
+        self.stop_exec = False
+
+        while not self.stop_exec and self.client.get_connected():
             _bytearray = self.client.db_get(self.config.Db)
             data = ConcatDataArrayTree(_bytearray, self.layout)
 
             self.signals.PLC_Data.emit(data)
 
-    def start_exec(self, run: bool):
-        self.run_exec = run
+    def stop(self):
+        self.stop_exec = True
 
     def connectClient(self):
         try:
             self.client.connect(self.config.IP, self.config.Rack, self.config.Slot)
         except Snap7Exception as e:
-            self.signals.error.emit(str(e))
+            self.signals.PLC_Error.emit(str(e))
 
 
 
