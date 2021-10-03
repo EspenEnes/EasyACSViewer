@@ -14,7 +14,7 @@ class PLC_Worker(QRunnable):
     def __init__(self, config: PLC_Config, layout:OrderedDict):
         super(PLC_Worker, self).__init__()
         self.signals = Signals()
-        self.client = Client()
+        self.client = Client(lib_location="res/snap7_64.dll")
         self.config = config
         self.layout = layout
         self.stop_exec = False
