@@ -12,9 +12,9 @@ from Simatic.plc_worker import PLC_Worker
 from Simatic.functions import PLC_Config
 from serializer import Serializer
 from PLCConfig.PlcCofig_UI import PlcConfigdialog
+
+
 class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
-
-
     def __init__(self, parent=None):
         super(ACSviewer, self).__init__(parent)
         self.setupUi(self)
@@ -24,6 +24,7 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
         self.openGLWidget.signals.EcsScene_Created.connect(self.onSceneCreated)
         self.openGLWidget.signals.Entity_clicked.connect(self.textBrowser.setText)
         self.threadpool = QThreadPool()
+
 
 
     def onDeSerialize(self):

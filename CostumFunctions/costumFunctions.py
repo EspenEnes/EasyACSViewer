@@ -30,19 +30,19 @@ def ACSCube(Xmin=-1,Xmax=1,Ymin=-1,Ymax=1,Zmin=-1,Zmax=1,color=(5,5,5,5), Entity
                           Xmax, Ymin, Zmax,0,0,1,color[0], color[1], color[2], color[3],
                           Xmin, Ymin, Zmax,0,0,1,color[0], color[1], color[2], color[3],
 
-                          Xmin, Ymax, Zmin,0,1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymax, Zmin,0,1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymax, Zmax,0,1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymax, Zmax,0,1,0,color[0], color[1], color[2], color[3],
-                          Xmin, Ymax, Zmax,0,1,0,color[0], color[1], color[2], color[3],
-                          Xmin, Ymax, Zmin,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmin, Ymax, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymax, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymax, Zmax,0,-1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymax, Zmax,0,-1,0,color[0], color[1], color[2], color[3],
+                          Xmin, Ymax, Zmax,0,-1,0,color[0], color[1], color[2], color[3],
+                          Xmin, Ymax, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
 
-                          Xmin, Ymin, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
-                          Xmin, Ymin, Zmax,0,-1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymin, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymin, Zmin,0,-1,0,color[0], color[1], color[2], color[3],
-                          Xmin, Ymin, Zmax,0,-1,0,color[0], color[1], color[2], color[3],
-                          Xmax, Ymin, Zmax,0,-1,0,color[0], color[1], color[2], color[3]]
+                          Xmin, Ymin, Zmin,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmin, Ymin, Zmax,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymin, Zmin,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymin, Zmin,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmin, Ymin, Zmax,0,1,0,color[0], color[1], color[2], color[3],
+                          Xmax, Ymin, Zmax,0,1,0,color[0], color[1], color[2], color[3]]
     #Add inn Color Vector
     # Vertecies = [x for y in (Positions[i:i + 6] + color[0 , color[1*, color[2 , color[3(i < len(Positions) - 4) for i in range(0, len(Positions), 4)) for x in y]
     # Add inn Entity Vector

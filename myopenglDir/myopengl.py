@@ -61,9 +61,9 @@ class MyOPENGL(QOpenGLWidget):
             tag = self.scene.scene.component_for_entity(self.SelectedEntity , TagComponent)
             box: AcsBoxComponent = self.scene.scene.component_for_entity(self.SelectedEntity , AcsBoxComponent)
             data = f"{tag.FriendlyName}\n" \
-                   f"Xmax: {box.Xmax}, Xmin: {box.Xmin}\n" \
-                   f"Ymax: {box.Ymax}, Ymin: {box.Ymin}\n" \
-                   f"Zmax: {box.Zmax}, Zmin: {box.Zmin}"
+                   f"Xmax: {box.Xmax: .3f}, Xmin: {box.Xmin: .3f}\n" \
+                   f"Ymax: {box.Ymax: .3f}, Ymin: {box.Ymin: .3f}\n" \
+                   f"Zmax: {box.Zmax: .3f}, Zmin: {box.Zmin: .3f}"
             self.signals.Entity_clicked.emit(data)
 
             self.timer2.start()

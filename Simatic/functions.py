@@ -59,4 +59,4 @@ class PLC_Config:
     IP: str = "192.168.10.118"
     Rack: int = 0
     Slot: int = 2
-    Db: int = 2121
+    Db: int = 2521
