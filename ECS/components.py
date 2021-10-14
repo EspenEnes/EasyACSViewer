@@ -5,6 +5,7 @@ from dataclasses import dataclass as component
 from ECS.sceneCamera import SceneCamera
 
 
+
 @component
 class TransformComponent:
     Translation: glm.vec3 =  glm.vec3(0.0, 0.0, 0.0)

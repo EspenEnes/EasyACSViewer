@@ -1,6 +1,3 @@
-from math import sin, cos
-
-import numpy as np
 from esper import World, Processor
 
 from ECS.components import *
@@ -70,10 +67,9 @@ class Scene():
                     self.SkyMapTexture.Bind()
                     indesies = [x + self.skyboxRenderer.IndexCount for x in mesh.Indesies]
                     vertesies = mesh.Vertesies
-                    self.skyboxRenderer.Push_Buffers(np.array(vertesies, dtype=np.float32),
-                                                     np.array(indesies, dtype=np.int32))
+                    self.skyboxRenderer.Push_Buffers(np.array(vertesies, dtype=np.float32), mesh.Indesies)
 
-                    self.skyboxRenderer.IndexCount += mesh.Indesies[-1] + 1
+                    # self.skyboxRenderer.IndexCount += mesh.Indesies[-1] + 1
 
                     self.skyboxRenderer.EndScene()
                     break
@@ -82,15 +78,14 @@ class Scene():
                 self.WhiteTexture.Bind()
                 self.renderer.BeginScene(mainCamera, cameraTransform)
                 self.renderer.shader.SetUniform3fv("u_lightPos", np.array(self.m_Position))
-                for ent, (ren, mesh,) in self.scene.get_components(RenderComponent, MeshComponent):
+                for ent, (ren, mesh, tag) in self.scene.get_components(RenderComponent, MeshComponent, TagComponent):
                     ren: RenderComponent
                     if not ren.Visible: continue
-                    indesies = [x + self.renderer.IndexCount for x in mesh.Indesies]
+                    # indesies = [x + self.renderer.IndexCount for x in mesh.Indesies]
                     vertesies = mesh.Vertesies
-                    self.renderer.Push_Buffers(np.array(vertesies, dtype=np.float32),
-                                               np.array(indesies, dtype=np.int32))
+                    self.renderer.Push_Buffers(np.array(vertesies, dtype=np.float32),mesh.Indesies)
 
-                    self.renderer.IndexCount += mesh.Indesies[-1] + 1
+                    # self.renderer.IndexCount += np.max(mesh.Indesies)
 
                 self.renderer.EndScene()
 

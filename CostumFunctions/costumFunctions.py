@@ -1,7 +1,13 @@
 from ECS.components import *
+from collections import namedtuple
+Color = namedtuple("Color", ["R", "G", "B", "A"])
+
+
+ipv4 = r"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
 
 
 def ACSCube(Xmin=-1,Xmax=1,Ymin=-1,Ymax=1,Zmin=-1,Zmax=1,color=(5,5,5,5), EntityId=-1):
+
     Positions =          [Xmin, Ymax, Zmin,0,0,-1,color[0], color[1], color[2], color[3],
                           Xmin, Ymin, Zmin,0,0,-1,color[0], color[1], color[2], color[3],
                           Xmax, Ymin, Zmin,0,0,-1,color[0], color[1], color[2], color[3],
@@ -182,6 +188,6 @@ def Quad2d(x, y, z, size, TexID=0, color=None, roll=0.0, pitch=0.0, entityID=-1)
     return Vertecies, Indesies
 
 
-
-
-
+if __name__ == '__main__':
+    cube = ACSCubeUDP()
+    vert, norm, text = cube.buildVertices()

@@ -11,10 +11,13 @@ from PyQt6.QtWidgets import QWidget, QMenu
 from ECS.components import *
 from ECS.scene import Scene, TagComponent, RenderComponent
 from ECS.sceneCameraController import CameraController
-from CostumFunctions.costumFunctions import SkyboxCube, Quad2d
+from CostumFunctions.costumFunctions import SkyboxCube, Quad2d, Color
 from ECS.functions import creatEcsEntitys
 from myopenglDir.framebuffer import Framebuffer
 from myopenglDir.offlinerenderer import OfflineRenderer
+
+
+
 
 
 class CostumSignals(QObject):
@@ -145,6 +148,7 @@ class MyOPENGL(QOpenGLWidget):
         trans.yaw = 0
         trans.pitch = -30
         trans.Translation = (-120, 7, 100)
+        # trans.Translation = (-10, 7, 10)
 
         SkyBox = self.scene.CreateEntity("Skybox")
         SkyBox.AddComponent(MeshComponent())
@@ -164,9 +168,9 @@ class MyOPENGL(QOpenGLWidget):
         idx = 0
         for y in range(0, 30):
             for x in range(0, 30):
-                color = [2, 2, 2, 1]
+                color = Color(2, 2, 2, 1)
                 if (x + y) % 2 == 0:
-                    color = [.5, .5, .5, 1]
+                    color = Color(.5, .5, .5, 1)
 
                 v, i = Quad2d(x - 115, 0, y + 85, (1, 1), 0, color)
                 Vertecies += v
@@ -181,6 +185,18 @@ class MyOPENGL(QOpenGLWidget):
         #
         ren: RenderComponent = floor.GetComponent(RenderComponent)
         ren.Visible = True
+
+        # cylinder = Cylinder(10,10,100)
+        # cyl = self.scene.CreateEntity("Cylinder")
+        # cyl.AddComponent(MeshComponent())
+        # cyl.AddComponent(RenderComponent())
+        # cyl_mesh: MeshComponent = cyl.GetComponent(MeshComponent)
+        # Vertesies = np.array(cylinder.costumvertecies([0.5, 0.5, 0.5, 1], -1), dtype=np.float32)
+        # Indesies = cylinder.indices
+        # cyl_mesh.Vertesies = Vertesies
+        # cyl_mesh.Indesies = Indesies
+        # aaa: RenderComponent = cyl.GetComponent(RenderComponent)
+        # aaa.Visible = True
 
         self.signals.initializeGL_Done.emit(True)
 

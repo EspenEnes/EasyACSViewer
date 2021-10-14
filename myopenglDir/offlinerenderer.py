@@ -41,9 +41,10 @@ class OfflineRenderer(BaseRenderer):
             1.0, -1.0, 1.0, 0.0,
             1.0, 1.0, 1.0, 1.0], dtype=np.float32)
 
-        values = [x + (self.IndexCount) for x in [0, 1, 2, 3, 4, 5]]
+        # values = [x + (self.IndexCount) for x in [0, 1, 2, 3, 4, 5]]
+        values = [0, 1, 2, 3, 4, 5]
 
         idx = np.array(values, dtype=np.int32)
-        self.IndexCount += 6
+        # self.IndexCount += 6
 
-        self.Push_Buffers(Vertecies, idx)
+        self.Push_Buffers(Vertecies, values)

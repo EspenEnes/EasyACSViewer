@@ -119,16 +119,20 @@ class BaseRenderer():
             self.vb.Buffer[self.VertexBufferPtr:self.VertexBufferPtr + Vertecies.shape[0]] = Vertecies
             self.VertexBufferPtr += Vertecies.shape[0]
 
+            Indeces = np.array([x + self.IndexCount for x in Indeces], dtype=np.int32)
             self.ib.Buffer[self.IndexBufferPtr:self.IndexBufferPtr + Indeces.shape[0]] = Indeces
             self.IndexBufferPtr += Indeces.shape[0]
+            self.IndexCount = np.max(Indeces) + 1
 
 
         elif self.VertexBufferPtr + len(Vertecies) == len(self.vb.Buffer):
             self.vb.Buffer[self.VertexBufferPtr:self.VertexBufferPtr + Vertecies.shape[0]] = Vertecies
             self.VertexBufferPtr += Vertecies.shape[0]
 
+            Indeces = np.array([x + self.IndexCount for x in Indeces], dtype=np.int32)
             self.ib.Buffer[self.IndexBufferPtr:self.IndexBufferPtr + Indeces.shape[0]] = Indeces
             self.IndexBufferPtr += Indeces.shape[0]
+            self.IndexCount = np.max(Indeces) + 1
 
             self.NextBatch()
 

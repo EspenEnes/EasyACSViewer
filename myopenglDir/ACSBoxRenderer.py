@@ -17,8 +17,8 @@ class ACS_Renderer(BaseRenderer):
         layout = VertexBufferlayout()
         layout.PushFloat(3)  # Add 3 floats for position
         layout.PushFloat(3)  # Add 3 floats for normals
-        layout.PushFloat(4)  # Add 3 floats for color
-        layout.PushFloat(1)  # Add 3 floats for EntityId
+        layout.PushFloat(4)  # Add 4 floats for color
+        layout.PushFloat(1)  # Add 1 floats for EntityId
 
         self.va.AddBuffer(self.vb, layout)
 
