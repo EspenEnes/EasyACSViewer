@@ -36,17 +36,23 @@ class Parser():
             lineItems = [x.strip(" ") for x in line.split() if len(x) > 0]
             byte = adress // 8
 
-            if lineItems[1] == "REAL" or lineItems[1] == "INT" or lineItems[1] == "BYTE": #todo Fix denne jolly fixen for å få parsingen til å stemme
+            # Alltid start REAL og int på eit partall
+            if lineItems[1] == "REAL" or lineItems[1] == "INT":  # todo Fix denne jolly fixen for å få parsingen til å stemme
                 if byte % 2 != 0:
                     byte += 1
                     adress += 8
+            # Alltid start Byte på eit partall, så lenge forgående type ikkje var Byte.
+            if lineItems[1] == "BYTE": #todo nok en jolly fix for å sjekke om forgående signal var byte.
+                if not outData.split("\n")[-2].split()[2] == "BYTE":
+                    if byte % 2 != 0:
+                        byte += 1
+                        adress += 8
 
             bit = adress % 8
             adress += checkType(lineItems[1], Types)
 
             outData += f"{byte}.{bit}   {lineItems[0]}  {lineItems[1].replace(' ', '')}\n"
             a = 5
-
 
         return parse_specification(outData)
 
