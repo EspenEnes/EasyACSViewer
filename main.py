@@ -9,7 +9,8 @@ from PLCSignals.plcSignals_UI import Signaldialog
 from Qt_Designs import main_ACS
 from Simatic.plc_simulator import Simulator_Worker
 from Simatic.plc_worker import PLC_Worker
-from Simatic.functions import PLC_Config
+from Simatic.multicast_Worker import Multicast_Worker
+from Simatic.functions import PLC_Config, MULTICAST_CONFIG
 from serializer import Serializer
 from PLCConfig.PlcCofig_UI import PlcConfigdialog
 
@@ -19,6 +20,7 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
         super(ACSviewer, self).__init__(parent)
         self.setupUi(self)
         self.PLC_Config = PLC_Config()
+        self.Multicast_Config = MULTICAST_CONFIG()
         self.signalLayout = OrderedDict()
 
         self.openGLWidget.signals.EcsScene_Created.connect(self.onSceneCreated)
@@ -40,10 +42,26 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
             self.plcWorker.signals.PLC_Error.connect(self.onPlcError)
             self.plcWorker.signals.PLC_Data.connect(self.onNewData)
             self.threadpool.start(self.plcWorker)
+
             self.actionSimulator.setDisabled(True)
+            self.actionMulticast_Run.setDisabled(True)
         else:
             self.plcWorker.signals.PLC_Stop.emit()
             self.actionSimulator.setEnabled(True)
+            self.actionMulticast_Run.setDisabled(True)
+
+    def onMulticastRun(self):
+        if self.actionMulticast_Run.isChecked():
+            self.worker = Multicast_Worker(self.Multicast_Config, self.signalLayout)
+            self.worker.signals.PLC_Data.connect(self.onNewData)
+            self.threadpool.start(self.worker)
+
+            self.actionSimulator.setDisabled(True)
+            self.actionRun.setDisabled(True)
+        else:
+            self.worker.signals.PLC_Stop.emit()
+            self.actionSimulator.setEnabled(True)
+            self.actionRun.setEnabled(True)
 
 
     def onSimulator(self):
@@ -52,10 +70,12 @@ class ACSviewer(QMainWindow, main_ACS.Ui_MainWindow):
             self.simulatorWorker.Signals.PLC_Data.connect(self.onNewData)
             self.threadpool.start(self.simulatorWorker)
             self.actionRun.setDisabled(True)
+            self.actionMulticast_Run.setDisabled(True)
             print("Simulator Mode On")
         else:
             self.simulatorWorker.Signals.PLC_Stop.emit()
             self.actionRun.setEnabled(True)
+            self.actionMulticast_Run.setEnabled(True)
             print("Simulator Mode Off")
 
     def onPlcError(self, error):

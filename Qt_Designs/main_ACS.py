@@ -87,6 +87,9 @@ class Ui_MainWindow(object):
         self.actionSimulator.setObjectName("actionSimulator")
         self.actionPlcConfig = QtGui.QAction(MainWindow)
         self.actionPlcConfig.setObjectName("actionPlcConfig")
+        self.actionMulticast_Run = QtGui.QAction(MainWindow)
+        self.actionMulticast_Run.setCheckable(True)
+        self.actionMulticast_Run.setObjectName("actionMulticast_Run")
         self.menuShow.addAction(self.actionMacines)
         self.menuShow.addAction(self.actionDetails)
         self.menuFile.addAction(self.actionOpen)
@@ -98,6 +101,7 @@ class Ui_MainWindow(object):
         self.menuEdit.addSeparator()
         self.menuEdit.addAction(self.actionPlcConfig)
         self.menuRun.addAction(self.actionRun)
+        self.menuRun.addAction(self.actionMulticast_Run)
         self.menuRun.addAction(self.actionSimulator)
         self.menubar.addAction(self.menuFile.menuAction())
         self.menubar.addAction(self.menuEdit.menuAction())
@@ -115,6 +119,7 @@ class Ui_MainWindow(object):
         self.actionNodes.triggered.connect(MainWindow.onOpenNodeDialog)
         self.actionSignals.triggered.connect(MainWindow.onOpenSignalDialog)
         self.actionPlcConfig.triggered.connect(MainWindow.onPlcConfig)
+        self.actionMulticast_Run.triggered.connect(MainWindow.onMulticastRun)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -133,9 +138,10 @@ class Ui_MainWindow(object):
         self.actionExit.setText(_translate("MainWindow", "Exit"))
         self.actionSignals.setText(_translate("MainWindow", "Signals"))
         self.actionNodes.setText(_translate("MainWindow", "Nodes"))
-        self.actionRun.setText(_translate("MainWindow", "Run..."))
+        self.actionRun.setText(_translate("MainWindow", "Direct PLC Run..."))
         self.actionSimulator.setText(_translate("MainWindow", "Simulator..."))
-        self.actionPlcConfig.setText(_translate("MainWindow", "PLCConfig"))
+        self.actionPlcConfig.setText(_translate("MainWindow", "PlcConfig"))
+        self.actionMulticast_Run.setText(_translate("MainWindow", "Multicast Run"))
 from CostumFunctions.treeview import TreeView
 from costumstatusbar import CostumStatusBar
 from myopenglDir.myopengl import MyOPENGL
