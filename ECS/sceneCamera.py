@@ -34,5 +34,5 @@ class SceneCamera():
 
     def RecalculateProjection(self):
         self.m_Projection = np.matrix(
-            glm.perspective(self.m_PerspectiveFOV,self.m_AspectRatio , self.m_PerspectiveNear, self.m_PerspectiveFar),dtype=np.float)
+            glm.perspective(self.m_PerspectiveFOV,self.m_AspectRatio , self.m_PerspectiveNear, self.m_PerspectiveFar),dtype=np.cfloat)
 
